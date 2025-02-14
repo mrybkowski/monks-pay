@@ -50,7 +50,9 @@ export function Header() {
             <Link href="#pricing">Pricing</Link>
           </li>
         </ul>
-        <Button variant="primary">Buy&nbsp;Template</Button>
+        <Button className="hidden md:block" variant="primary">
+          Buy&nbsp;Template
+        </Button>
       </div>
     </motion.header>
   );
