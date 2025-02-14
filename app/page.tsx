@@ -10,7 +10,7 @@ import {
 
 export default function Home() {
   return (
-    <>
+    <main>
       <Hero />
       <Features />
       <Partners />
@@ -18,6 +18,6 @@ export default function Home() {
       <Security />
       <Pricing />
       <CTA />
-    </>
+    </main>
   );
 }

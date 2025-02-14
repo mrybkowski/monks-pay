@@ -20,7 +20,7 @@ export function Hero() {
               <h1 className="font-urbanist font-bold text-generalColors-dark lg:text-6xl md:text-5xl text-4xl text-balance text-center md:text-left">
                 Pay&nbsp;
                 <span className="relative inline-block">
-                  fast&nbsp;and&nbsp;smarter&nbsp;
+                  fast and smarter
                   <Image
                     width={144}
                     height={48}
@@ -29,7 +29,7 @@ export function Hero() {
                     className="absolute bottom-[-5px] left-0 w-full h-auto"
                   />
                 </span>
-                from&nbsp;anywhere
+                from anywhere
               </h1>
             </div>
             <div data-aos="fade-up" data-aos-delay="200">
