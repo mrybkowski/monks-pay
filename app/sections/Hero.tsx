@@ -1,4 +1,4 @@
-import { CircleCheck } from "lucide-react";
+import { CircleCheck, TrendingUp } from "lucide-react";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -87,7 +87,7 @@ export function Hero() {
               alt={"Hero"}
             />
           </div>
-          {/* <div
+          <div
             data-aos="fade-right"
             data-aos-delay="100"
             className="absolute top-[85%] xl:top-[75%] left-0 bg-generalColors-white rounded-lg p-5 shadow-sm"
@@ -108,7 +108,7 @@ export function Hero() {
               </div>
             </div>
           </div>
-          <div
+          {/* <div
             data-aos="fade-left"
             data-aos-delay="200"
             className="absolute top-[45%] right-0 bg-generalColors-white rounded-lg p-5 shadow-sm flex flex-row gap-5"
