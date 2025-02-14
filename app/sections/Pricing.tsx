@@ -9,7 +9,7 @@ export function Pricing() {
         alt="Watermark"
         width={225}
         height={409}
-        className="absolute -right-24 -top-48"
+        className="absolute -right-24 -top-48 hidden md:block"
       />
       <div className="flex flex-col items-center justify-center gap-2 px-5">
         <div data-aos="fade-up" data-aos-delay="0">
