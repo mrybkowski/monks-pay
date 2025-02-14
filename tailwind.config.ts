@@ -23,7 +23,7 @@ export default {
     extend: {
       backgroundImage: {
         hero: "url('../public/background.svg')",
-        cta: "url('../public/cta.png')",
+        cta: "url('../public/cta.webp')",
       },
       colors: {
         background: "var(--background)",

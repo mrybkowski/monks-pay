@@ -86,7 +86,7 @@ export function Hero() {
             <Image
               width={611}
               height={620}
-              src={"/hero-new.webp"}
+              src={"/hero.webp"}
               alt={"Hero"}
               loading="lazy"
             />
