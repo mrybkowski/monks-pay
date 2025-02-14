@@ -22,8 +22,10 @@ export default {
     },
     extend: {
       backgroundImage: {
-        hero: "url('../public/background.svg')",
+        hero: "url('../public/background.webp')",
+        heroMobile: "url('../public/background-mobile.webp')",
         cta: "url('../public/cta.webp')",
+        ctaMobile: "url('../public/cta-mobile.webp')",
       },
       colors: {
         background: "var(--background)",
