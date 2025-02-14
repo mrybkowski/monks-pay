@@ -35,7 +35,13 @@ export function Header() {
       )}
     >
       <div className="flex py-5 container mx-auto items-center justify-between w-full">
-        <Image width={144} height={48} src="logo.svg" alt="logo" />
+        <Image
+          width={144}
+          height={48}
+          src="logo.svg"
+          alt="logo"
+          loading="lazy"
+        />
         <ul className="md:flex flex-row gap-8 font-semibold text-lg text-generalColors-paragrah hidden">
           <li className="hover:cursor-pointer transition-all duration-300 ease-in-out hover:text-generalColors-primary">
             <Link href="#features">Features</Link>

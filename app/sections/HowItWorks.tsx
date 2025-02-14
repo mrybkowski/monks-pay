@@ -38,6 +38,7 @@ export function HowItWorks() {
               alt="Download Monks Pay"
               width={75}
               height={96}
+              loading="lazy"
             />
             <h3 className="font-bold text-xl text-generalColors-dark font-urbanist ">
               Download Monks Pay
@@ -53,6 +54,7 @@ export function HowItWorks() {
             className="hidden xl:block"
             width={2}
             height={1}
+            loading="lazy"
           />
           <hr className="xl:hidden" />
           <div>
@@ -61,6 +63,7 @@ export function HowItWorks() {
               alt="Link your bank or card"
               width={95}
               height={96}
+              loading="lazy"
             />
             <h3 className="font-bold text-xl text-generalColors-dark font-urbanist ">
               Link your bank or card
@@ -76,6 +79,7 @@ export function HowItWorks() {
             className="hidden xl:block"
             width={2}
             height={1}
+            loading="lazy"
           />
           <hr className="xl:hidden" />
           <div>
@@ -84,6 +88,7 @@ export function HowItWorks() {
               alt="Start paying"
               width={90}
               height={96}
+              loading="lazy"
             />
             <h3 className="font-bold text-xl text-generalColors-dark font-urbanist ">
               Start paying

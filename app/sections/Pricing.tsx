@@ -10,6 +10,7 @@ export function Pricing() {
         width={225}
         height={409}
         className="absolute -right-24 -top-48 hidden md:block"
+        loading="lazy"
       />
       <div className="flex flex-col items-center justify-center gap-2 px-5">
         <div data-aos="fade-up" data-aos-delay="0">
@@ -57,6 +58,7 @@ export function Pricing() {
                 alt="Separator"
                 width={28}
                 height={28}
+                loading="lazy"
               />
               <p className="font-outfit text-generalColors-paragrah">
                 Up to 100 transections per month
@@ -68,6 +70,7 @@ export function Pricing() {
                 alt="Separator"
                 width={28}
                 height={28}
+                loading="lazy"
               />
               <p className="font-outfit text-generalColors-paragrah">
                 Basic proud protection
@@ -79,6 +82,7 @@ export function Pricing() {
                 alt="Separator"
                 width={28}
                 height={28}
+                loading="lazy"
               />
               <p className="font-outfit text-generalColors-paragrah">
                 Email support
@@ -118,6 +122,7 @@ export function Pricing() {
                 alt="Separator"
                 width={28}
                 height={28}
+                loading="lazy"
               />
               <p className="font-outfit text-darkShades-60">
                 Up to 1000 transections per month
@@ -129,6 +134,7 @@ export function Pricing() {
                 alt="Separator"
                 width={28}
                 height={28}
+                loading="lazy"
               />
               <p className="font-outfit text-darkShades-60">
                 Advanced proud protection
@@ -140,6 +146,7 @@ export function Pricing() {
                 alt="Separator"
                 width={28}
                 height={28}
+                loading="lazy"
               />
               <p className="font-outfit text-darkShades-60">
                 Detailed transaction reports
@@ -151,6 +158,7 @@ export function Pricing() {
                 alt="Separator"
                 width={28}
                 height={28}
+                loading="lazy"
               />
               <p className="font-outfit text-darkShades-60">
                 Priority email & chat support
@@ -190,6 +198,7 @@ export function Pricing() {
                 alt="Separator"
                 width={28}
                 height={28}
+                loading="lazy"
               />
               <p className="font-outfit text-generalColors-paragrah">
                 Unlimited transections per month
@@ -201,6 +210,7 @@ export function Pricing() {
                 alt="Separator"
                 width={28}
                 height={28}
+                loading="lazy"
               />
               <p className="font-outfit text-generalColors-paragrah">
                 Premium proud protection
@@ -212,6 +222,7 @@ export function Pricing() {
                 alt="Separator"
                 width={28}
                 height={28}
+                loading="lazy"
               />
               <p className="font-outfit text-generalColors-paragrah">
                 Detailed transaction reports
@@ -223,6 +234,7 @@ export function Pricing() {
                 alt="Separator"
                 width={28}
                 height={28}
+                loading="lazy"
               />
               <p className="font-outfit text-generalColors-paragrah">
                 Priority email & chat support

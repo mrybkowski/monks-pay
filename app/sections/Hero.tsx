@@ -27,6 +27,7 @@ export function Hero() {
                     src="underline.svg"
                     alt="underline"
                     className="absolute bottom-[-5px] left-0 w-full h-auto"
+                    loading="lazy"
                   />
                 </span>
                 from anywhere
@@ -51,6 +52,7 @@ export function Hero() {
                   height={48}
                   src={"apple-store.svg"}
                   alt="Apple Store Icon"
+                  loading="lazy"
                 />
               </Link>
               <Link href="https://play.google.com/store/games/">
@@ -59,6 +61,7 @@ export function Hero() {
                   height={48}
                   src={"google-play.svg"}
                   alt={"Google Play Icon"}
+                  loading="lazy"
                 />
               </Link>
             </div>
@@ -85,6 +88,7 @@ export function Hero() {
               height={620}
               src={"/hero-new.webp"}
               alt={"Hero"}
+              loading="lazy"
             />
           </div>
           <div

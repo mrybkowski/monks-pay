@@ -31,6 +31,7 @@ export function Features() {
             alt="Instant payments"
             width={60}
             height={60}
+            loading="lazy"
           />
           <div className="flex flex-col items-center justify-center gap-1">
             <h3 className="font-bold text-xl text-generalColors-dark font-urbanist text-center">
@@ -51,6 +52,7 @@ export function Features() {
             alt="No hidden fees"
             width={60}
             height={60}
+            loading="lazy"
           />
           <div className="flex flex-col items-center justify-center gap-1">
             <h3 className="font-bold text-xl text-generalColors-dark font-urbanist text-center">
@@ -71,6 +73,7 @@ export function Features() {
             alt="Digital wallet"
             width={60}
             height={60}
+            loading="lazy"
           />
           <div className="flex flex-col items-center justify-center gap-1">
             <h3 className="font-bold text-xl text-generalColors-dark font-urbanist text-center">
@@ -91,6 +94,7 @@ export function Features() {
             alt="Secure transactions"
             width={60}
             height={60}
+            loading="lazy"
           />
           <div className="flex flex-col items-center justify-center gap-1">
             <h3 className="font-bold text-xl text-generalColors-dark font-urbanist text-center">

@@ -10,7 +10,13 @@ export function Footer() {
           data-aos-delay="0"
           className="flex flex-col xl:col-span-3 xl:w-1/4"
         >
-          <Image width={174} height={42} src="logo.svg" alt="logo" />
+          <Image
+            width={174}
+            height={42}
+            src="logo.svg"
+            alt="logo"
+            loading="lazy"
+          />
           <p className="font-outfit text-generalColors-paragrah text-balance">
             Monks Pay offers secure, seamless, and fee-free payments for
             effortless global transactions.
