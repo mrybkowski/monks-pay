@@ -1,4 +1,6 @@
-import { AnimatedElement } from "@/components";
+"use client";
+
+import { motion } from "framer-motion";
 
 import Image from "next/image";
 
@@ -16,7 +18,7 @@ export function Partners() {
 
   return (
     <div className="overflow-hidden w-full pt-16 bg-white pb-28">
-      <AnimatedElement
+      <motion.div
         className="flex w-max"
         animate={{ x: ["0%", "-100%"] }}
         transition={{
@@ -38,7 +40,7 @@ export function Partners() {
               />
             </div>
           ))}
-      </AnimatedElement>
+      </motion.div>
     </div>
   );
 }
