@@ -25,10 +25,13 @@ export function CTA() {
         data-aos-delay="200"
         className="flex flex-col items-center justify-center md:flex-row gap-5 mt-5"
       >
-        <Button variant="primary">Download&nbsp;the&nbsp;App</Button>
+        <Button variant="primary" href="#">
+          Download&nbsp;the&nbsp;App
+        </Button>
         <Button
           className="border-generalColors-white text-generalColors-white"
           variant="outline"
+          href="#"
         >
           Get&nbsp;Started&nbsp;Now
         </Button>

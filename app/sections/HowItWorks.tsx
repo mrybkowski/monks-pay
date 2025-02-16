@@ -22,7 +22,7 @@ export function HowItWorks() {
             </div>
           </div>
           <div data-aos="fade-up" data-aos-delay="100">
-            <Button className="hidden md:block" variant="primary">
+            <Button className="hidden md:block" variant="primary" href="#">
               Get&nbsp;Started&nbsp;Now
             </Button>
           </div>
@@ -100,7 +100,7 @@ export function HowItWorks() {
           </div>
         </div>
         <div data-aos="fade-up" data-aos-delay="0">
-          <Button className="block md:hidden" variant="primary">
+          <Button className="block md:hidden" variant="primary" href="#">
             Get&nbsp;Started&nbsp;Now
           </Button>
         </div>

@@ -89,7 +89,7 @@ export function Pricing() {
               </p>
             </div>
           </div>
-          <Button className="mt-6 w-full" variant="outline">
+          <Button className="mt-6 w-full" variant="outline" href="#">
             Get&nbsp;Free&nbsp;Plan
           </Button>
         </div>
@@ -164,7 +164,7 @@ export function Pricing() {
                 Priority email & chat support
               </p>
             </div>
-            <Button className="mt-6 w-full" variant="primary">
+            <Button className="mt-6 w-full" variant="primary" href="#">
               Get&nbsp;Advanced&nbsp;Plan
             </Button>
           </div>
@@ -241,7 +241,7 @@ export function Pricing() {
               </p>
             </div>
           </div>
-          <Button className="mt-6 w-full" variant="outline">
+          <Button className="mt-6 w-full" variant="outline" href="#">
             Get&nbsp;Business&nbsp;Plan
           </Button>
         </div>

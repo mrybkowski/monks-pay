@@ -58,8 +58,7 @@ export function Footer() {
                   <Link href="/terms-and-conditions">Terms & conditionss</Link>
                 </li>
                 <li className="hover:cursor-pointer transition-all duration-300 ease-in-out hover:text-generalColors-primary">
-                  {/* <Link href="/404">404</Link> */}
-                  404
+                  <Link href="/404">404</Link>
                 </li>
               </ul>
             </div>

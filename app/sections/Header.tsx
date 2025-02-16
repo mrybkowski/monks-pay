@@ -56,7 +56,7 @@ export function Header() {
             <Link href="#pricing">Pricing</Link>
           </li>
         </ul>
-        <Button className="hidden md:block" variant="primary">
+        <Button className="hidden md:block" variant="primary" href="#">
           Buy&nbsp;Template
         </Button>
       </div>

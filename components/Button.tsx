@@ -1,15 +1,20 @@
+import Link from "next/link";
 import { twMerge } from "tailwind-merge";
+import type { UrlObject } from "url";
 
+type Url = string | UrlObject;
 interface IButtonProps {
   children: React.ReactNode;
   variant?: "default" | "primary" | "secondary" | "outline";
   className?: string;
+  href: Url;
 }
 
 export function Button({
   children,
   variant = "default",
   className,
+  href,
 }: IButtonProps) {
   const variantClasses = {
     default:
@@ -28,5 +33,9 @@ export function Button({
     className
   );
 
-  return <button className={buttonClass}>{children}</button>;
+  return (
+    <Link href={href}>
+      <button className={buttonClass}>{children}</button>
+    </Link>
+  );
 }
