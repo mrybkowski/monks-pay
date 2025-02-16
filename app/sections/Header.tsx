@@ -32,7 +32,7 @@ export function Header() {
         isScrolled && "backdrop-blur-md"
       )}
     >
-      <div className="flex my-5 container mx-auto items-center justify-between w-full">
+      <div className="flex my-5 container mx-auto items-center justify-between w-full ">
         <Link href="/">
           <Image
             width={144}

@@ -55,8 +55,7 @@ export function Footer() {
                   <Link href="/privacy-policy">Privacy policy</Link>
                 </li>
                 <li className="hover:cursor-pointer transition-all duration-300 ease-in-out hover:text-generalColors-primary">
-                  {/* <Link href="/terms-and-conditions">Terms & conditionss</Link> */}
-                  Terms & conditionss
+                  <Link href="/terms-and-conditions">Terms & conditionss</Link>
                 </li>
                 <li className="hover:cursor-pointer transition-all duration-300 ease-in-out hover:text-generalColors-primary">
                   {/* <Link href="/404">404</Link> */}

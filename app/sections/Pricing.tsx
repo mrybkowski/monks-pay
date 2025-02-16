@@ -9,7 +9,7 @@ export function Pricing() {
         alt="Watermark"
         width={225}
         height={409}
-        className="absolute -right-24 -top-48 hidden md:block"
+        className="absolute -right-0 -top-48 hidden md:block"
         loading="lazy"
       />
       <div className="flex flex-col items-center justify-center gap-2 px-5">
