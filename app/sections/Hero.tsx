@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export function Hero() {
   return (
-    <section className="bg-heroMobile md:bg-hero bg-cover rounded-b-3xl mx-5 sm:mx-10 px-5 pt-32 xl:pt-20">
+    <section className="bg-heroMobile md:bg-hero bg-cover rounded-3xl mx-5 sm:mx-10 px-5 pt-32 xl:pt-20 mt-5">
       <div className="container mx-auto grid md:grid-cols-2 items-end gap-5">
         <div className="flex flex-col gap-10 h-full justify-center items-center md:items-start">
           <div className="flex flex-col gap-2">

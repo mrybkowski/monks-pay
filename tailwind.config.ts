@@ -26,6 +26,8 @@ export default {
         heroMobile: "url('../public/background-mobile.webp')",
         cta: "url('../public/cta.webp')",
         ctaMobile: "url('../public/cta-mobile.webp')",
+        radialBlue:
+          "radial-gradient(circle, rgb(204, 155, 255) 0%, transparent 100%)",
       },
       colors: {
         background: "var(--background)",
