@@ -70,11 +70,11 @@ export function Hero() {
               data-aos-delay="400"
               className="flex items-center justify-start gap-3 text-darkShades-90"
             >
-              <span className="flex items-center gap-1">
+              <span className="flex items-start gap-1">
                 <CircleCheck />
                 <p>No Card required</p>
               </span>
-              <span className="flex items-center gap-1">
+              <span className="flex items-start gap-1">
                 <CircleCheck />
                 <p>Fast acceptance</p>
               </span>
