@@ -7,3 +7,8 @@ body {
   background: var(--generalColors-white);
   font-family: var(--font-outfit);
 }
+
+/* Płynne przesuwanie slider'a swiper loop */
+.swiper-wrapper {
+  transition-timing-function: linear !important;
+}

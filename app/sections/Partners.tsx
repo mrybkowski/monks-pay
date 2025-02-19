@@ -1,8 +1,13 @@
 "use client";
 
-import { motion } from "framer-motion";
-
 import Image from "next/image";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+
+import "swiper/css";
+import "swiper/css/free-mode";
+import "swiper/css/autoplay";
 
 export function Partners() {
   const partners = [
@@ -14,33 +19,50 @@ export function Partners() {
     { src: "logo-ipsum-6.svg", alt: "Logo ipsum 6", width: 182 },
   ];
 
-  const numberOfLoops = 10;
+  // Swiper 9+ wprowadził nowy sposób działania trybu loop:
+  // zamiast duplikować slajdy, dynamicznie je przestawia.
+  //
+  // Wymaganie: liczba slajdów musi być co najmniej 2x większa
+  // niż wartość `slidesPerView`.
+  //
+  // Źródło: https://swiperjs.com/migration-guide-v9#loop-mode
+  const duplicatedPartners = [...partners, ...partners];
 
   return (
     <div className="overflow-hidden w-full pt-16 bg-white pb-28">
-      <motion.div
-        className="flex w-max"
-        animate={{ x: ["0%", "-100%"] }}
-        transition={{
-          repeat: Infinity,
-          duration: numberOfLoops * 20,
-          ease: "linear",
+      <Swiper
+        spaceBetween={40}
+        loop
+        autoplay={{
+          delay: 0,
+        }}
+        speed={5000}
+        modules={[Autoplay]}
+        breakpoints={{
+          640: {
+            slidesPerView: partners.length / 2,
+          },
+          768: {
+            slidesPerView: (partners.length / 3) * 2,
+          },
+          1024: {
+            slidesPerView: partners.length,
+          },
         }}
       >
-        {[...Array(numberOfLoops)]
-          .flatMap(() => partners)
-          .map((partner, index) => (
-            <div key={index} className="mx-10 flex-shrink-0">
-              <Image
-                src={partner.src}
-                alt={partner.alt}
-                height={40}
-                width={partner.width}
-                loading="lazy"
-              />
-            </div>
-          ))}
-      </motion.div>
+        {duplicatedPartners.map((partner, index) => (
+          <SwiperSlide key={index}>
+            <Image
+              src={partner.src}
+              alt={partner.alt}
+              height={40}
+              width={partner.width}
+              loading="lazy"
+              className="cursor-grab"
+            />
+          </SwiperSlide>
+        ))}
+      </Swiper>
     </div>
   );
 }
